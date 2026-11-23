@@ -59,6 +59,8 @@ function App() {
                <div key={book.id}>
                    <p>Title : {book.title}</p>
                    <p>Release date : {book.release_date}</p>
+                   <input type={"text"} placeholder={"Change the title"} />
+                   <button>Change Title</button>
                    <hr style={{ height: 2, backgroundColor: 'red', border: 'none' }} />
                </div>
 
